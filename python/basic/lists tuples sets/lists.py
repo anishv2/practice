@@ -17,9 +17,11 @@ print(fruits); # ['Apple', 'Banana', 'Cherry', 'Pineapple', 'Mango', 'Grapes', '
 
 more_fruits = ['Guava','Blackberry','Papaya'];
 
+fruits.append(more_fruits); 
+print(fruits); # ['Apple', 'Banana', 'Cherry', 'Pineapple', 'Mango', 'Grapes', 'Lichi', ['Guava', 'Blackberry', 'Papaya']]
+
 fruits.extend(more_fruits); # it combines the fruits list with more_fruits list 
 print(fruits);  # ['Apple', 'Banana', 'Cherry', 'Pineapple', 'Mango', 'Grapes', 'Lichi', 'Guava', 'Blackberry', 'Papaya']
-fruits.append(more_fruits); # ['Apple', 'Banana', 'Cherry', 'Pineapple', 'Mango', 'Grapes', 'Lichi', 'Guava', 'Blackberry', 'Papaya']
 
 print(fruits); # ['Apple', 'Banana', 'Cherry', 'Pineapple', 'Mango', 'Grapes', 'Lichi', 'Guava', 'Blackberry', 'Papaya', ['Guava', 'Blackberry', 'Papaya']]
 
