@@ -6,4 +6,4 @@
 - Number and Float
 - List, Tuple and Set
 - Dictionary
-
+- Loops
