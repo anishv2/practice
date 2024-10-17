@@ -65,6 +65,7 @@ pip install --upgrade *
 
 
 - To installed packages in requirements format.
+
 Step 1.
 ```bash
 pip freeze
