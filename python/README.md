@@ -7,3 +7,4 @@
 - List, Tuple and Set
 - Dictionary
 - Loops
+- Functions
