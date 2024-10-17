@@ -9,3 +9,7 @@
 - Loops
 - Functions
 - Import modules
+- PIP - Package manager
+
+
+
