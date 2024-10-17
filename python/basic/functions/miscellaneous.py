@@ -22,3 +22,15 @@ def days_in_month(year, month):
 
 print(days_in_month(2002, 2));
 print(days_in_month(2003, 3));
+
+
+
+# function to find index of item in list
+
+def find_index(search_list, target_item):
+    ''' Find the index of value in a list '''
+    for i, item in enumerate(search_list):
+        if target_item == item:
+            return i;
+    return -1;
+
