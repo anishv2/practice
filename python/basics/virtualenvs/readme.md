@@ -1,23 +1,23 @@
 
-- To install virtualenv
+To install virtualenv
 
 ```bash
 pip install virtualenv
 ```
 
-- To create env
+To create env
 
 ```bash
 virtualenv <environment_name>
 ```
 
-- To check version of virtualenv
+To check version of virtualenv
 
 ```bash
 virtualenv --version
 ```
 
-- To activate virtualenv 
+To activate virtualenv 
 
 **for MAC/Linux**
 
@@ -35,17 +35,21 @@ or
 
 ```bash
 <environment_name>\Scripts\activate
-````
+```
 
 
-- To deactivate virtualenv
+To deactivate virtualenv
 
 ```bash
 deactivate
 ```
 
-- To install any package in particular virtualenv
+To install any package in particular virtualenv
 
 ```bash
 <environment_name> pip install <package_name>
 ```
+
+
+Reactivate a virtual environment 
+If you want to reactivate an existing virtual environment, follow the same instructions about activating a virtual environment. There’s no need to create a new virtual environment.

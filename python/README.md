@@ -10,6 +10,8 @@
 - Functions
 - Import modules
 - PIP - Package manager
+- Virtual Environments
+
 
 
 
