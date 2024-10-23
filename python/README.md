@@ -11,6 +11,8 @@
 - Import modules
 - PIP - Package manager
 - Virtual Environments
+- Comprehension
+- Sorting in List, Tuple and Set
 
 
 
