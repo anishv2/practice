@@ -2,7 +2,7 @@
 
 **Concepts**
 
-- String
+- String and String Formatting
 - Number and Float
 - List, Tuple and Set
 - Dictionary
@@ -13,6 +13,7 @@
 - Virtual Environments
 - Comprehension
 - Sorting in List, Tuple and Set
+
 
 
 
