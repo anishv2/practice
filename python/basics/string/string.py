@@ -22,8 +22,5 @@ print(help(message)); # it returns all pre-defined methods in details
 
 
 
-
-
-
 # date: 08-10-2024
 # source: https://www.youtube.com/watch?v=k9TUPpGqYTo&list=PL-osiE80TeTskrapNbzXhwoFUiLCjGgY7&index=2

@@ -19,7 +19,7 @@ struct Complex {
 int main(){
     Complex a; // here a is a variable
     a.input(453,784);
-    a.display();
+    a.display(); // first value: 453 , second value: 784
     return 0;
 };
 

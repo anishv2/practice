@@ -15,7 +15,6 @@ print(message2);  # I am Nick and I am 34 years old
 
 
 # class 
-
 class Person:
     def __init__(self, name, age):
         self.name = name;
@@ -87,6 +86,45 @@ sentence = '{:%B %d, %Y} fell on a {} and was the {} day of the year'.format(
 );
 
 print(sentence)  # October 24, 2024 fell on a Thursday and was the 298 day of the year
+
+
+
+
+# Solution 1
+
+data = ("John", "Doe", 53.44)
+format_string = "Hello"
+
+print('{0} {1[0]} {1[1]}. Your current balance is ${1[2]}'.format(format_string, data))
+
+
+# Hello John Doe. Your current balance is $53.44.
+
+
+# Solution 2
+
+data = ("John", "Doe", 53.44)
+format_string = "Hello %s %s. Your current balance is $%s."
+
+print(format_string % data)
+
+
+
+
+# Notes
+
+# Here are some basic argument specifiers you should know:
+
+# %s - String (or any object with a string representation, like numbers)
+
+# %d - Integers
+
+# %f - Floating point numbers
+
+# %.<number of digits>f - Floating point numbers with a fixed amount of digits to the right of the dot.
+
+# %x/%X - Integers in hex representation (lowercase/uppercase)
+
 
 
 

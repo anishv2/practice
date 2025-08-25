@@ -120,8 +120,6 @@ class Composite extends Component {
 // Flyweight
 // The Flyweight pattern reduces the memory footprint of an application by sharing as much data as possible with related objects.
 
-
-
 class FlyweightFactory { 
     constructor() {
         this.flyweights = {};
@@ -153,11 +151,8 @@ class Flyweight {
 }
 
 
-
-
 // Proxy
 // The Proxy pattern provides a surrogate or placeholder for another object to control access to it.
-
 
 class RealSubject { 
     request() {
