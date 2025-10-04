@@ -47,4 +47,23 @@ for key, value in person.items():
                         # city Los Angeles
 
 
+anime={
+    'name': 'Beyblade',
+    'releasedYear': '2001',
+    'language':'Japanese',
+};
+
+
+print('Anime has:');
+
+for key, value in anime.items():
+    print(f'key: {key}, value: {value}');
+
+
+# conditional statement
+
+if "language" in anime:
+    print('Language key is exist');
+else:
+    print('Language key is not exist');  
 

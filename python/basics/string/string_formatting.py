@@ -14,6 +14,7 @@ print(message1); # I am Olivia and I am 25 years old
 print(message2);  # I am Nick and I am 34 years old
 
 
+
 # class 
 class Person:
     def __init__(self, name, age):
@@ -29,11 +30,11 @@ message5 = 'I am {name} and my age is {age}'.format(**person);
 print(message5);
 
 
-
 class Animal:
     def __init__(self, name, category):
         self.name = name;
         self.category = category;
+
 
 
 an = Animal('Dog', 'Mammal');
@@ -46,7 +47,6 @@ Here,
 {:02} ensures that the value of i is formatted as a two-digit number.
 The 0 means "pad the number with leading zeros if necessary."
 The 2 specifies that the width of the number should be 2 digits.
-
 '''
 
 for i in range(1,11):
@@ -59,8 +59,10 @@ for i in range(1,11):
 
 pi = 3.14159265
 
-sentence = 'The pi value is {:.2f}'.format(pi);
-print(sentence); # 3.14
+sentence = 'The pi value is {:.2f}'.format(pi); 
+print(sentence); # 3.14 because .2f will show only 2 digits after decimal
+sentence = 'The pi value is {:.2}'.format(pi); 
+print(sentence); # 3.1 because .2 will show overall 2 digits
 
 
 # long sizes in bytes 
@@ -86,8 +88,6 @@ sentence = '{:%B %d, %Y} fell on a {} and was the {} day of the year'.format(
 );
 
 print(sentence)  # October 24, 2024 fell on a Thursday and was the 298 day of the year
-
-
 
 
 # Solution 1

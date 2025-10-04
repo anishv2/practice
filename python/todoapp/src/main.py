@@ -4,11 +4,14 @@
 
 class Todo:
     def __init__(self, title, description):
-        self.title = title
-        self.description = description
+        self.title = title;
+        self.description = description;
 
-    
+    def display(self):
+        print(f'title:{self.title}, description: {self.description}');
 
-# create todo function
-# def create_todo(task):
-#     return 
+
+todo = Todo('cooking', 'making pizza');
+
+print(todo.display());
+
