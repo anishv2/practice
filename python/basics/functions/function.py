@@ -26,7 +26,6 @@ def greet(message):
 print(greet('Good Night')); # Good Night 
 
 
-
 def greet2(message, name = 'Anish'):  # here name is a default params in function
     print('{} says {}'.format(name, message)); # Anish says Good Night, due to not returning anything in function its also it returning None after message
                                                

@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            flex-direction: column;
+            gap:3rem;
+            min-height: 100vh;
+            background-color: #1f1e1e;
+        }
+        .dob {
+            padding: 6px 10px;
+        }
+        input[type="date"]::-webkit-calendar-picker-indicator {
+  display: none;
+  -webkit-appearance: none;
+}
+
+    </style>
+</head>
+<body>
+    <input class="dob" type="text" title="date of birth">
+    <input class="dob2" type="date" title="date of birth">
+    <script src="main.js"></script>
+</body>
+</html>

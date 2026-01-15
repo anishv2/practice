@@ -13,7 +13,6 @@ print(person.get('email', 'Not found')); # Not found
 
 
 
-
 # delete key from dictionary
 
 del person['age'];
@@ -66,4 +65,5 @@ if "language" in anime:
     print('Language key is exist');
 else:
     print('Language key is not exist');  
+
 
