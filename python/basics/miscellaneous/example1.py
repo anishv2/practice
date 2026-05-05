@@ -12,7 +12,7 @@ radian = math.radians(1)
 
 print(radian) # 0.017453292519943295
 
-leap_year = calendar.isleap(2024)
+leap_year = calendar.isleap(2026)
 
 print(leap_year)
 

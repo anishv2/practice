@@ -14,7 +14,6 @@ print(rads); # 1.5707963267948966
 print(math.sin(rads)); # 1.0
 
 
-
 print(datetime.date.today());
 print(calendar.isleap(2024)); # True
 

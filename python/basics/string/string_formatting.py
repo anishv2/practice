@@ -70,6 +70,9 @@ sentence = '1 MB is equal to {:,} bytes'.format(1000**2);
 
 print(sentence) # 1 MB is equal to 1,000,000 bytes
 
+text1= "    how are you?  "
+print(text1.strip())  # method is used to remove leading (at the start) and trailing (at the end) characters from a string. By default, it removes whitespace characters (spaces, tabs, newlines).
+
 
 # date time
 
